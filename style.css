@@ -1,3 +1,14 @@
+#container{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+header p{
+  font-style: italic;
+
+}
+.headline, h1, h2, h3, span{
+  font-weight: bold;
+}
 h1{
   font-size: 36px;
 }
@@ -6,7 +17,4 @@ h2{
 }
 h3{
   font-size: 28px;
-}
-h4, p, ul, footer{
-  font-size: 16px;
 }
