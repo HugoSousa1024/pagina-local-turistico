@@ -1,14 +1,22 @@
 #container{
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  color: #333333;
 }
+
 header p{
   font-style: italic;
+  text-align: center;
+}
 
+.headline{
+  color: #E1624F;
+  text-transform: uppercase;
 }
 .headline, h1, h2, h3, span{
   font-weight: bold;
 }
+
 h1{
   font-size: 36px;
 }
@@ -17,4 +25,33 @@ h2{
 }
 h3{
   font-size: 28px;
+}
+
+h1, h2, h3{
+  color: #1B1B1B;
+}
+
+.cardTravel ul li::marker{
+  color: #333333;
+}
+.cardTraveln1 ul,.cardTraveln2 ul{
+  color: #0C51A7;
+}
+
+ul{
+  font-weight: bold;
+}
+
+.cardTraveln3 ul li:first-child{
+  color: #591B98;
+}
+.cardTraveln3 ul li:nth-child(-0n + 2){
+  color: #E5245E;
+}
+.cardTraveln3 ul li:last-child{
+  color: #E95E10;
+}
+
+#finalRemarks{
+  text-align: center;
 }
