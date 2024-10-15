@@ -1,0 +1,18 @@
+#ll{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+
+}
+
+#ll ul{
+  list-style-type: disc;
+}
+
+ol{
+  margin: 0;
+  padding: 24px;
+}
+ol img{
+  margin: 0;
+  padding: 0;
+}
