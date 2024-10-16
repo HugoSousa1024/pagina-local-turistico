@@ -1,13 +1,54 @@
+*{
+  /* border: solid 1px; */
+  margin: 0;
+}
+
+body{
+  background-color: #F5F4F0;
+}
+
 #container{
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #333333;
+  box-sizing: border-box;
+  width: 1120px;
+  margin: 88px auto 65px;
+}
+
+header img{
+  margin-bottom: 24px;
 }
 
 header p{
   font-style: italic;
   text-align: center;
 }
+
+.presentationCardTravel p{
+  margin-bottom: 64px;
+}
+
+#container img{
+  border-radius: 28px;
+  width: 1120px; 
+  margin-bottom: 20px;
+}
+
+hr{
+  height: 0;
+  color: #D9D9D9;
+  margin-top: 40px;
+  margin-bottom: 40px;
+ 
+}
+
+main .headline{
+  margin-top: 24px;
+  margin-bottom: 2px;
+}
+
+
 
 .headline{
   color: #E1624F;
@@ -17,29 +58,43 @@ header p{
   font-weight: bold;
 }
 
+
 h1{
   font-size: 36px;
+  margin-top: 8px;
+  margin-bottom: 40px;
 }
 h2{
   font-size: 32px;
+  margin-bottom: 8px;
+    
 }
 h3{
   font-size: 28px;
+  margin-bottom: 4px;
 }
 
 h1, h2, h3{
   color: #1B1B1B;
 }
 
+ul{
+  font-weight: bold;
+  padding: 20px;
+  
+}
+
+.cardTraveln2{
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
 .cardTravel ul li::marker{
   color: #333333;
 }
+
 .cardTraveln1 ul,.cardTraveln2 ul{
   color: #0C51A7;
-}
-
-ul{
-  font-weight: bold;
 }
 
 .cardTraveln3 ul li:first-child{
@@ -54,4 +109,14 @@ ul{
 
 #finalRemarks{
   text-align: center;
+}
+
+footer{
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 48px;
+  text-align: center;
+}
+footer img{
+  vertical-align: middle;
 }
